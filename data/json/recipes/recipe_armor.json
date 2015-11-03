@@ -5604,6 +5604,54 @@
   ]
 },{
   "type" : "recipe",
+  "result": "ghelm_survivor",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_HEAD",
+  "skill_used": "fabrication",
+  "skills_required" : ["fabrication", 3],
+  "difficulty": 5,
+  "time": 20000,
+  "reversible": true,
+  "autolearn": true,
+  "qualities" : [
+    {"id":"CUT","level":1,"amount":1}
+  ],
+  "tools": [
+    [
+      [ "welder", 36 ],
+      [ "soldering_iron", 36 ],
+      [ "toolset", 36 ]
+    ],
+    [
+      [ "needle_bone", 20 ],
+      [ "needle_wood", 20 ],
+      [ "tailors_kit", 20 ],
+      [ "sewing_kit", 20 ]
+    ]
+  ],
+  "components": [
+     [
+      [ "helmet_plate", 1 ]
+     ],
+     [
+      [ "scrap", 2 ]
+     ],
+     [
+      [ "mask_filter", 1 ],
+      [ "mask_gas", 1 ]
+     ],
+	 [
+	  [ "goggles_ski", 1 ]
+	 ],
+     [
+      [ "duct_tape", 50 ]
+     ],
+	 [
+	  [ "rag", 4 ]
+	 ]
+  ]
+},{
+  "type" : "recipe",
   "result": "hood_lsurvivor",
   "category": "CC_ARMOR",
   "subcategory": "CSC_ARMOR_HEAD",
